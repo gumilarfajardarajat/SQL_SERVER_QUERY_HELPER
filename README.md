@@ -1,2 +1,2 @@
-##
-<tab><tab>code/text here
+```bash
+npm install your-package-name
