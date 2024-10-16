@@ -1,5 +1,13 @@
 ```bash
 
+DECLARE 
+	@SelectedDate DATE,
+	@FirstDate DATE,
+	@LastDate DATE;
+
+DECLARE @Year INT = 2024;
+DECLARE @Month INT = 4;
+
 SELECT @SelectedDate = CAST(CONCAT(@Year, '-', @Month, '-01') AS DATE);
 	
 SELECT 
